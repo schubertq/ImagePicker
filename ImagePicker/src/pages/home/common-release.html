@@ -1,0 +1,13 @@
+<div class="imgContainer marginLeft10" *ngIf="imagePaths.length>0">
+  <!--四张图片-->
+  <div class="fourImgContainer" *ngIf="imagePaths.length==4">
+    <img class="manyImg" *ngFor="let image of imagePaths" [src]=image>
+    <div class="clearFloat"></div>
+  </div>
+  <!--不是四张图片-->
+  <div class="manyImgContainer" *ngIf="imagePaths.length!=4">
+    <img class="manyImg" *ngFor="let image of imagePaths" [src]=image>
+    <div class="clearFloat"></div>
+  </div>
+</div>
+<img src="assets/images/add.png" class="imgAdd" tappable (click)="addImg()">

@@ -1,0 +1,20 @@
+<ion-header>
+  <ion-navbar color="primary">
+    <ion-title>
+      发帖子
+    </ion-title>
+    <ion-buttons end>
+      <button (click)="upload()" [disabled]="statusContent.length === 0">
+        发布
+      </button>
+    </ion-buttons>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+  <ion-item no-lines>
+    <ion-label floating>分享新鲜事吧...</ion-label>
+    <ion-textarea rows="4" [(ngModel)]="statusContent"></ion-textarea>
+  </ion-item>
+  <common-release (imagesSelected)="imagesSelected($event)"></common-release>
+</ion-content>
