@@ -12,6 +12,7 @@ Ionic2+AngularJS2 图片选择component和多图上传
 <img src="https://github.com/schubertq/ImagePicker/raw/master/ImagePicker/screenshots/1.PNG" width = "30%" />
 <img src="https://github.com/schubertq/ImagePicker/raw/master/ImagePicker/screenshots/2.PNG" width = "30%" />
 
+利用RxJS上传多张图片
 ```javascript
 /***
    * 上传多张图片
