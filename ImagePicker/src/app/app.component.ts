@@ -8,6 +8,7 @@ import { TabsPage } from '../pages/tabs/tabs';
 @Component({
   templateUrl: 'app.html'
 })
+//master add
 export class MyApp {
   rootPage = TabsPage;
 
