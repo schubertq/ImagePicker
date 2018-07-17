@@ -4,7 +4,7 @@ import { StatusBar, Splashscreen } from 'ionic-native';
 
 import { TabsPage } from '../pages/tabs/tabs';
 
-
+//branch init
 @Component({
   templateUrl: 'app.html'
 })
