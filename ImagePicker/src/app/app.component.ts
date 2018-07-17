@@ -6,7 +6,7 @@ import { TabsPage } from '../pages/tabs/tabs';
 
 //branch init
 //worka add comment
-//worka add comment1
+//worka add comment1111
 
 @Component({
   templateUrl: 'app.html'
