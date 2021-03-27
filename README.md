@@ -9,8 +9,8 @@ Ionic2+AngularJS2 图片选择component和多图上传
     * $ ionic plugin add https://github.com/Telerik-Verified-Plugins/ImagePicker
     * $ ionic plugin add cordova-plugin-camera
 
-<img src="https://github.com/schubertq/ImagePicker/raw/master/ImagePicker/screenshots/1.PNG" width = "30%" />
-<img src="https://github.com/schubertq/ImagePicker/raw/master/ImagePicker/screenshots/2.PNG" width = "30%" />
+<img src="http://tedshu.com/images/ImagePicker/screenshots/1.PNG" width = "30%" />
+<img src="http://tedshu.com/images/ImagePicker/screenshots/2.PNG" width = "30%" />
 
 利用RxJS上传多张图片
 ```javascript
